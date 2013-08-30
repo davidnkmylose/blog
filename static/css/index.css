@@ -26,6 +26,7 @@ body{
     -webkit-border-radius: 6px 6px 0 0;
     color:#000000;
     cursor:pointer;
+    text-decoration:none;
 }
 
 .tab-item:hover{
