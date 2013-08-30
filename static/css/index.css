@@ -1,0 +1,42 @@
+body{
+    width:980px;
+    margin: 0 auto;
+    font-family: "Microsoft YaHei";
+    padding-top:10px;
+}
+
+.blog_content{
+    float:left;
+    width:680px;
+}
+
+.r_list{
+    float:right;
+    width:300px;
+}
+.tab-item{
+    margin-right:5px;
+    display:inline-block;
+    height:30px;
+    line-height:30px;
+    padding:5px 10px;
+    border :1px solid #555;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    color:#000000;
+    cursor:pointer;
+}
+
+.tab-item:hover{
+    background-color:#FFFFFF;
+}
+
+.r-block{
+    background-color:#E1ECFE;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    padding:6px 10px;
+    margin-bottom:20px;
+}
