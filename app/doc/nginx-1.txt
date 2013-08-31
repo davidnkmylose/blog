@@ -1,0 +1,11 @@
+#nginx学习笔记 之一  安装配置
+
+## 安装前准备
+1. pcre 源码包
+2. zlib 源码包
+## 参数说明
+1.  --prefix    
+      定义安装根目录，包括bin、conf等相关文件，缺省默认路径：/usr/local/nginx 
+2.  --sbin-path    
+      定义执行文件路径，默认路径是：prefix/sbin/nginx
+3. 
