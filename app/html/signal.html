@@ -24,9 +24,42 @@
 
 <h2>信号简述</h2>
 
+<pre><code>关于nginx,php-fpm等守护进程服务，在日常开发中会运用信号观念管理服务的启、停等，本篇简单记录下经常遇到的
+</code></pre>
+
 <h2>常用信号描述</h2>
 
 <h2>nginx信号</h2>
+
+<h3>HUP</h3>
+
+<pre><code>以新的配置启动新的工作进程,同时平滑重启老的工作进程。
+</code></pre>
+
+<h3>INT</h3>
+
+<pre><code>快速关闭，和从容关闭的主要区别在，从容关闭会处理完现有连接后在关闭服务器，快速关闭直接关闭服务器。
+</code></pre>
+
+<h3>QUIT</h3>
+
+<pre><code>从容关闭
+</code></pre>
+
+<h3>TERM</h3>
+
+<pre><code>快速关闭服务器
+</code></pre>
+
+<h3>USR1</h3>
+
+<pre><code>重新打开日志文件，一般用于日志切分。
+</code></pre>
+
+<h3>USR2</h3>
+
+<pre><code>升级可执行文件，如sbin/nginx文件升级
+</code></pre>
 
 <h2>php-fpm信号</h2>
 
